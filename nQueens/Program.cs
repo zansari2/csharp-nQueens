@@ -10,6 +10,7 @@ namespace nQueens
     {
         static void Main(string[] args)
         {
+            RunQueen.run();
         }
     }
 }
