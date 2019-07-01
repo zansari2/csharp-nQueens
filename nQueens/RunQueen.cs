@@ -19,17 +19,17 @@ namespace nQueens
             Board b1 = new Board(dimension);
             //Print board state
             print(b1);
-            /* Code to enable generating randomized boards that are valid
-            //Randomize board
-            Console.WriteLine("\nRandomizing...\n");
-            rand(b1);
-            //Verify
-            Console.Write("\nVerfiying board...\n\n");
-            while (verify(b1) == false)
-            {
-                rand(b1);
-            }
-            */
+                                                                        /* Code to enable generating randomized boards that are valid
+                                                                        //Randomize board
+                                                                        Console.WriteLine("\nRandomizing...\n");
+                                                                        rand(b1);
+                                                                        //Verify
+                                                                        Console.Write("\nVerfiying board...\n\n");
+                                                                        while (verify(b1) == false)
+                                                                        {
+                                                                            rand(b1);
+                                                                        }
+                                                                        */
             Console.WriteLine("\nGenerating...\n");
             generate(b1,dimension);
         }
